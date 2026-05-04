@@ -1,0 +1,26 @@
+import boto3
+import json
+import csv
+client=boto3.client('s3')
+bucketname="raw_data_patient"
+filename="patient_personal_data"    
+                
+def download_file_from_s3(bucketname,filename):
+                  
+      
+def read_file_from_s3():
+                  with open("/tmp/patient_data/.format")
+                  data=fp.reader()
+                  return data
+ 
+     
+def copy_file(bucketname,filename,copysource):
+  
+def delete _data_from_source(bucketname,filename):
+
+def lambda_handler(event,context):
+          download_file_from_s3
+          read_file_from_s3()
+          copy_file
+          delete _data_from_sourc
+
